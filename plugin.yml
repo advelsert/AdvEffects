@@ -1,0 +1,33 @@
+name: AdvEffects
+main: ADVSPACE\EffectsMain
+api: 3.0.0
+version: 1.0.0(https://vk.com/advspace, https://t.me/advspace)
+author: ADVSPACE STUDIO
+website: https://vk.com/advspace
+
+commands:
+  health:
+    description: "больше сердечек"
+    permission: health.advspace
+  speed:
+    description: "эффект скорости"
+    permission: speed.advspace
+  heal:
+    description: "эффект регенарации"
+    permission: heal.advspace
+  jump:
+    description: "эффект высокого прыжка"
+    permission: jump.advspace
+permissions:
+  health.advspace:
+    default: op
+    description: "Дает доступ к команде /health"
+  speed.advspace:
+    default: op
+    description: "Дает доступ к команде /speed"
+  heal.advspace:
+    default: op
+    description: "Даеь доступ к команде /heal"
+  jump.advspace:
+    default: op
+    description: "Даеь доступ к команде /jump"
